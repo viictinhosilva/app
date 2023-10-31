@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Moderna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .button-container {
+            margin-bottom: 20px;
+        }
+
+        .button-container button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="button-container">
+        <button onclick="somar()">Adicionar</button>
+        <button onclick="subtrair()">Remover</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th><input type="number" id="PP" placeholder="Inserir PP" class="PP"></th>
+                <th><input type="number" id="P" placeholder="Inserir P" class="P"></th>
+                <th><input type="number" id="M" placeholder="Inserir M" class="M"></th>
+                <th><input type="number" id="G" placeholder="Inserir G" class="G"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PP</td>
+                <td class="PP">0</td>
+                <td>5 KG</td>
+            </tr>
+            <tr>
+                <td>P</td>
+                <td class="P">0</td>
+                <td>5 KG</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td class="M">0</td>
+                <td>5 KG</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td class="G">0</td>
+                <td>5 KG</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        
+    </script>
+</body>
+
+</html>
